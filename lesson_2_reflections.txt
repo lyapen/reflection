@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+Whith repository initialization a new folder .git/ is creating. This folder contains all needed information about repository. For creating repository I should press command: git init
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area tells you what is ready to be commited in your working directory. So you can commit just part of your working directory, that allows you to commit logical changes, but not whole working directory.
