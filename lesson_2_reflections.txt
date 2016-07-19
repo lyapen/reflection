@@ -3,3 +3,18 @@ Whith repository initialization a new folder .git/ is creating. This folder cont
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area tells you what is ready to be commited in your working directory. So you can commit just part of your working directory, that allows you to commit logical changes, but not whole working directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+I can move one logical change to staging area, commit it, than add next logical change to staging and commit it. There by I get two commits wit different logical changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If I want to do some experiment or to do separate programm with different language and so on.
+
+How do the diagrams help you visualize the branch structure?
+It shows all possible connections and you can track each commit and define to which branch it belongs.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is adding lines that wasn't before appereance of branches. We represent it in the diagram because it is easier to understand connections between commits.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+It is safe yout time. And prepare all materials in needed form.
